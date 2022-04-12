@@ -1,0 +1,598 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('assets/fonts/Poppins-Black.eot');
+    src: url('assets/fonts/Poppins-Black.eot?#iefix') format('embedded-opentype'),
+        url('assets/fonts/Poppins-Black.woff2') format('woff2'),
+        url('assets/fonts/Poppins-Black.woff') format('woff'),
+        url('assets/fonts/Poppins-Black.ttf') format('truetype'),
+        url('assets/fonts/Poppins-Black.svg#Poppins-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('assets/fonts/Poppins-BlackItalic.eot');
+    src: url('assets/fonts/Poppins-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('assets/fonts/Poppins-BlackItalic.woff2') format('woff2'),
+        url('assets/fonts/Poppins-BlackItalic.woff') format('woff'),
+        url('assets/fonts/Poppins-BlackItalic.ttf') format('truetype'),
+        url('assets/fonts/Poppins-BlackItalic.svg#Poppins-BlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('assets/fonts/Poppins-Bold.eot');
+    src: url('assets/fonts/Poppins-Bold.eot?#iefix') format('embedded-opentype'),
+        url('assets/fonts/Poppins-Bold.woff2') format('woff2'),
+        url('assets/fonts/Poppins-Bold.woff') format('woff'),
+        url('assets/fonts/Poppins-Bold.ttf') format('truetype'),
+        url('assets/fonts/Poppins-Bold.svg#Poppins-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('assets/fonts/Poppins-BoldItalic.eot');
+    src: url('assets/fonts/Poppins-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('assets/fonts/Poppins-BoldItalic.woff2') format('woff2'),
+        url('assets/fonts/Poppins-BoldItalic.woff') format('woff'),
+        url('assets/fonts/Poppins-BoldItalic.ttf') format('truetype'),
+        url('assets/fonts/Poppins-BoldItalic.svg#Poppins-BoldItalic') format('svg');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('assets/fonts/Poppins-ExtraBold.eot');
+    src: url('assets/fonts/Poppins-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('assets/fonts/Poppins-ExtraBold.woff2') format('woff2'),
+        url('assets/fonts/Poppins-ExtraBold.woff') format('woff'),
+        url('assets/fonts/Poppins-ExtraBold.ttf') format('truetype'),
+        url('assets/fonts/Poppins-ExtraBold.svg#Poppins-ExtraBold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('assets/fonts/Poppins-ExtraBoldItalic.eot');
+    src: url('assets/fonts/Poppins-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('assets/fonts/Poppins-ExtraBoldItalic.woff2') format('woff2'),
+        url('assets/fonts/Poppins-ExtraBoldItalic.woff') format('woff'),
+        url('assets/fonts/Poppins-ExtraBoldItalic.ttf') format('truetype'),
+        url('assets/fonts/Poppins-ExtraBoldItalic.svg#Poppins-ExtraBoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('assets/fonts/Poppins-ExtraLight.eot');
+    src: url('assets/fonts/Poppins-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('assets/fonts/Poppins-ExtraLight.woff2') format('woff2'),
+        url('assets/fonts/Poppins-ExtraLight.woff') format('woff'),
+        url('assets/fonts/Poppins-ExtraLight.ttf') format('truetype'),
+        url('assets/fonts/Poppins-ExtraLight.svg#Poppins-ExtraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('assets/fonts/Poppins-ExtraLightItalic.eot');
+    src: url('assets/fonts/Poppins-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('assets/fonts/Poppins-ExtraLightItalic.woff2') format('woff2'),
+        url('assets/fonts/Poppins-ExtraLightItalic.woff') format('woff'),
+        url('assets/fonts/Poppins-ExtraLightItalic.ttf') format('truetype'),
+        url('assets/fonts/Poppins-ExtraLightItalic.svg#Poppins-ExtraLightItalic') format('svg');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('assets/fonts/Poppins-Italic.eot');
+    src: url('assets/fonts/Poppins-Italic.eot?#iefix') format('embedded-opentype'),
+        url('assets/fonts/Poppins-Italic.woff2') format('woff2'),
+        url('assets/fonts/Poppins-Italic.woff') format('woff'),
+        url('assets/fonts/Poppins-Italic.ttf') format('truetype'),
+        url('assets/fonts/Poppins-Italic.svg#Poppins-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('assets/fonts/Poppins-Light.eot');
+    src: url('assets/fonts/Poppins-Light.eot?#iefix') format('embedded-opentype'),
+        url('assets/fonts/Poppins-Light.woff2') format('woff2'),
+        url('assets/fonts/Poppins-Light.woff') format('woff'),
+        url('assets/fonts/Poppins-Light.ttf') format('truetype'),
+        url('assets/fonts/Poppins-Light.svg#Poppins-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('assets/fonts/Poppins-LightItalic.eot');
+    src: url('assets/fonts/Poppins-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('assets/fonts/Poppins-LightItalic.woff2') format('woff2'),
+        url('assets/fonts/Poppins-LightItalic.woff') format('woff'),
+        url('assets/fonts/Poppins-LightItalic.ttf') format('truetype'),
+        url('assets/fonts/Poppins-LightItalic.svg#Poppins-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('assets/fonts/Poppins-Medium.eot');
+    src: url('assets/fonts/Poppins-Medium.eot?#iefix') format('embedded-opentype'),
+        url('assets/fonts/Poppins-Medium.woff2') format('woff2'),
+        url('assets/fonts/Poppins-Medium.woff') format('woff'),
+        url('assets/fonts/Poppins-Medium.ttf') format('truetype'),
+        url('assets/fonts/Poppins-Medium.svg#Poppins-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('assets/fonts/Poppins-MediumItalic.eot');
+    src: url('assets/fonts/Poppins-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('assets/fonts/Poppins-MediumItalic.woff2') format('woff2'),
+        url('assets/fonts/Poppins-MediumItalic.woff') format('woff'),
+        url('assets/fonts/Poppins-MediumItalic.ttf') format('truetype'),
+        url('assets/fonts/Poppins-MediumItalic.svg#Poppins-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('assets/fonts/Poppins-Regular.eot');
+    src: url('assets/fonts/Poppins-Regular.eot?#iefix') format('embedded-opentype'),
+        url('assets/fonts/Poppins-Regular.woff2') format('woff2'),
+        url('assets/fonts/Poppins-Regular.woff') format('woff'),
+        url('assets/fonts/Poppins-Regular.ttf') format('truetype'),
+        url('assets/fonts/Poppins-Regular.svg#Poppins-Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('assets/fonts/Poppins-SemiBold.eot');
+    src: url('assets/fonts/Poppins-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('assets/fonts/Poppins-SemiBold.woff2') format('woff2'),
+        url('assets/fonts/Poppins-SemiBold.woff') format('woff'),
+        url('assets/fonts/Poppins-SemiBold.ttf') format('truetype'),
+        url('assets/fonts/Poppins-SemiBold.svg#Poppins-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('assets/fonts/Poppins-SemiBoldItalic.eot');
+    src: url('assets/fonts/Poppins-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('assets/fonts/Poppins-SemiBoldItalic.woff2') format('woff2'),
+        url('assets/fonts/Poppins-SemiBoldItalic.woff') format('woff'),
+        url('assets/fonts/Poppins-SemiBoldItalic.ttf') format('truetype'),
+        url('assets/fonts/Poppins-SemiBoldItalic.svg#Poppins-SemiBoldItalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('assets/fonts/Poppins-Thin.eot');
+    src: url('assets/fonts/Poppins-Thin.eot?#iefix') format('embedded-opentype'),
+        url('assets/fonts/Poppins-Thin.woff2') format('woff2'),
+        url('assets/fonts/Poppins-Thin.woff') format('woff'),
+        url('assets/fonts/Poppins-Thin.ttf') format('truetype'),
+        url('assets/fonts/Poppins-Thin.svg#Poppins-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+body, html {
+    color: #5d6778;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+h1 {
+    color: #252930;
+}
+
+.navbar {
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link {
+    color: #8a8a8a;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link.active,
+.navbar-light .navbar-nav .nav-item .nav-link:hover {
+    color: #6f42c1;
+    transition: color .5s;
+}
+
+.navbar-light .navbar-nav .nav-item .btn {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.navbar-collapse .list-inline-item {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #f8f6f8;
+    text-align: center;
+    padding-top: 4px;
+}
+
+.navbar-collapse .list-inline-item a {
+    color: #6f42c1;
+}
+
+.site-headline {
+    font-size: 3rem;
+}
+
+.font-weight-bold {
+    font-weight: 700;
+}
+
+.site-tagline {
+    font-size: 1.125rem;
+}
+
+.site-tagline span {
+    color: #6f42c1;
+}
+
+.hero-figure {
+    max-width: 100%;
+}
+
+#about {
+    background-color: rgb(240, 240, 255);
+}
+
+#about .container .row {
+    margin: 0;
+}
+
+.containt-about {
+    box-shadow: 0 0 10px rgba(140, 140, 140, 0.5);
+    border-radius: 10px;
+}
+
+.icon {
+    display: inline-flex;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #ffffff;
+    color: #6f42c1;
+    transition: .5s;
+    box-shadow: 0 0 25px #e1e1e2;
+}
+
+.icon:hover {
+    box-shadow: 0 0 30px #d0b7fa;
+}
+
+#services {
+    text-align: center;
+}
+
+#services .title {
+    position: relative;
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+
+#services .title::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #6f42c1;
+    margin-bottom: 20px;
+    left: calc(50% - 25px);
+}
+
+#blog {
+    background-color: #f7f7f7;
+    padding: 50px 0;
+}
+
+.inner-item {
+    background-color: #ffffff;
+    box-shadow: 0 0 20px rgba(182, 182, 182, 0.5);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+.inner-item:hover img {
+    transform: scale(1.1);
+}
+
+.card-body a {
+    text-decoration: none;
+    color: #6f42c1;
+}
+
+.button-blog {
+    text-align: center;
+}
+
+.btn-light {
+    color: #6f42c1;
+    font-weight: 600;
+}
+
+.btn-light:hover {
+    color: #6f42c1;
+    box-shadow: 1px 1px 10px rgba(116, 115, 115, 0.5);
+    transition: all 0.5s ease-in-out;
+}
+
+.info-box {
+    box-shadow: 0 0 30px rgb(214 215 216 / 60%);
+    padding: 20px 0 30px 0;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 100%;
+}
+
+.info-box i{
+    color: #6f42c1 !important;
+}
+
+.info-box h3{
+    font-weight: 600;
+}
+
+.php-email-form {
+    padding: 20px;
+    box-shadow: 0 0 30px rgb(214 215 216 / 60%);
+    border-radius: 5px;
+}
+
+.php-email-form .form-group .form-control {
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.php-email-form .form-group .form-control:focus {
+    border: #6f42c1 solid 1px;
+}
+
+img {
+    transition: .5s;
+}
+
+.cards:hover img {
+    transform: scale(1.15);
+}
+
+.head-breadcrumb {
+    background-color: #5931a3;
+    color: #fff;
+    margin-top: 72px;
+    min-height: 50px;
+    padding: 15px 0;
+}
+
+.head-breadcrumb .breadcrumb li,
+.head-breadcrumb .breadcrumb li a {
+    color: #fff;
+}
+
+.head-breadcrumb .breadcrumb li a {
+    text-decoration: none;
+}
+
+.head-breadcrumb .breadcrumb li a:hover {
+    text-decoration: underline;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border: 1px solid #6f42c1;
+}
+
+.card-body .icon {
+    width: 16px;
+    height: 16px;
+    color: #6f42c1;
+}
+
+.card-body .card-title {
+    color: #000000;
+    font-weight: 600;
+}
+
+.card-link {
+    color: #6f42c1;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.card-link:hover {
+    color: #9266e2;
+}
+
+.btn-group-vertical a {
+    text-decoration: none;
+    color: #000000ba;
+}
+
+.btn-group-vertical a:hover {
+    color: #6e42c1c8;
+}
+
+.btn-group-vertical a .badge {
+    background-color: #6f42c1;
+}
+
+.section-title::before {
+    content: "";
+    width: 85px;
+    height: 3px;
+    background-color: #6f42c1;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-radius: 2px;
+}
+
+.section-title::after {
+    content: "";
+    width: 4px;
+    height: 3px;
+    background-color: #ffffff;
+    position: absolute;
+    left: 10px;
+    bottom: 0; 
+}
+
+.recent-post {
+    text-decoration: none;
+    color: #000000ba;
+    font-size: 16px;
+}
+
+.recent-post:hover {
+    color: #6f42c1;
+}
+
+.page-item.active .page-link {
+    background-color: #6f42c1 !important;
+    border: 1px solid #6f42c1;
+}
+
+.page-link {
+    border: 1px solid #6f42c1;
+    color: #6f42c1;
+}
+
+.page-link:hover {
+    border: 1px solid #6f42c1;
+    color: #a890d6;
+}
+.page-link:focus {
+    border: 1px solid #6f42c1;
+    box-shadow: none;
+    
+}
+
+.newsletter {
+    background-color: #c09effa5;
+}
+
+.footer {
+    background-color: #f8fbff;
+    padding: 0;
+    font-size: 14px;
+}
+
+.footer .footer-newsletter{
+    background-color: #f6f1ff;
+    padding: 50px 0;
+    border: #d2c4ec9a solid 1px;
+}
+
+.footer-buttom {
+    background-color: #f6f1ff;
+    border: #d2c4ec9a solid 1px;
+    padding: 10px 0;
+}
+
+.footer-top .list-inline-item a {
+    color: #6f42c1 !important;
+}
+
+.footer-top h4 {
+    color: #6f42c1;
+}
+
+.footer-services {
+    padding: 0 10px;
+}
+
+.footer-services li {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.footer-services li a {
+    color: #5d6778;
+}
+
+.reply-form {
+    box-shadow: 0 0 25px #6e42c165;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.copyright {
+    color: #6f42c1;
+}
+
+.back-to-top {
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    right: 15px;
+    bottom: 15px;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #6f42c1;
+    color: #ffffff;
+    z-index: 9999;
+    transition: all .5s;
+}
+
+.back-to-top.active {
+    visibility: visible;
+    opacity: 1;
+}
